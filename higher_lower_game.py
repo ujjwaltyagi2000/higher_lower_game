@@ -16,8 +16,8 @@ country_A=account_A["country"]
 
 while repeat!=False:
 
-    os.system('cls' if os.name == 'nt' else 'clear')
-    print(art.logo)
+    # os.system('cls' if os.name == 'nt' else 'clear')
+    # print(art.logo)
     print(f"\nScore: {score}")
     celeb_A=account_A["name"]
     followers_A=account_A["follower_count"]
@@ -25,7 +25,7 @@ while repeat!=False:
     country_A=account_A["country"]
     print(f"\nCompare A: {celeb_A}, a {description_A} from {country_A}")
 
-    print(art.vs)
+    # print(art.vs)
 
     account_B=random.choice(celebs)
 
